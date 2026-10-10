@@ -25,6 +25,7 @@ This repository implements the standard Gitflow workflow:
 Given the HR manager is viewing a candidate's application
 When they change the status to "Shortlisted" and save it
 Then the candidate's status should be updated and an email notification should be triggered
+```
 
 ### Story 3: View Applied Jobs History
 **User Story:** As a job seeker, I want to view a list of all the jobs I have applied for so that I can track my application progress.
@@ -33,6 +34,7 @@ Then the candidate's status should be updated and an email notification should b
 Given the job seeker is logged into their account
 When they navigate to the "My Applications" section
 Then they should see a list of all jobs they have applied for along with their current status
+```
 
 ### Story 4: Create New Job Posting
 **User Story:** As an HR manager, I want to post a new job opening so that candidates can view it and apply.
@@ -41,3 +43,4 @@ Then they should see a list of all jobs they have applied for along with their c
 Given the HR manager is on the job creation dashboard
 When they fill in the job title, description, and requirements and click "Publish"
 Then the new job listing should appear on the public jobs portal
+```
