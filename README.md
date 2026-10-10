@@ -17,3 +17,5 @@ This repository implements the standard Gitflow workflow:
   Given a job seeker is on the job details page
   When they upload their resume and click the "Apply Now" button
   Then their application should be successfully submitted and saved in the system
+
+Updating from feature branch
