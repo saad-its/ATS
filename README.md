@@ -18,7 +18,6 @@ This repository implements the standard Gitflow workflow:
   When they upload their resume and click the "Apply Now" button
   Then their application should be successfully submitted and saved in the system
 
-  ---
 ### Story 2: Update Application Status
 * **User Story:** As an HR manager, I want to update a candidate's application status so that they know if they are shortlisted or rejected.
 * **Gherkin Scenario:**
@@ -28,8 +27,6 @@ When they change the status to "Shortlisted" and save it
 Then the candidate's status should be updated and an email notification should be triggered
 
 
----
-
 ### Story 3: View Applied Jobs History
 * **User Story:** As a job seeker, I want to view a list of all the jobs I have applied for so that I can track my application progress.
 * **Gherkin Scenario:**
@@ -38,8 +35,6 @@ Given the job seeker is logged into their account
 When they navigate to the "My Applications" section
 Then they should see a list of all jobs they have applied for along with their current status
 
-
----
 
 ### Story 4: Create New Job Posting
 * **User Story:** As an HR manager, I want to post a new job opening so that candidates can view it and apply.
