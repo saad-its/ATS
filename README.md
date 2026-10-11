@@ -1,4 +1,4 @@
-# Applicant Tracking System (ATS) - Project Documentation
+# Applicant Tracking System (ATS)
 
 ## 1. Gitflow Branching Strategy
 This repository implements the standard Gitflow workflow:
